@@ -28,7 +28,7 @@ script reads the config, copies the files and verifies the result.
 | File | Purpose |
 |---|---|
 | `variables.tf` | Backup folder and list of files to back up |
-| `main.tf` | Creates the config file and an info file |
+| `main.tf` | Creates the config file |
 | `outputs.tf` | Shows the path to the config file |
 | `backup.ps1` | Reads config, copies files and verifies the backup |
 | `data/` | Test files that are backed up |

@@ -6,5 +6,5 @@ variable "backup_dir" {
 variable "source_files" {
   description = "Files to back up"
   type        = list(string)
-  default     = ["data/file1.txt", "data/file2.txt", "data/file3.txt" ]
+  default     = ["data/file1.txt", "data/file2.txt"]
 }
